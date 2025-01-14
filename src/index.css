@@ -9,3 +9,14 @@
 h1, h2, h3, .bold{
     font-family: 'Poppins', sans-serif;
 }
+
+.specialBtn{
+    background: white;
+    box-shadow: -1px 20px 55px rgb(24 63 114 / 35%);
+    transition-duration: 200ms;
+
+}
+
+.specialBtn:hover{
+    opacity: 0.8;
+}
