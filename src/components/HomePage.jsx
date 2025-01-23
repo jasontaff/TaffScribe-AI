@@ -74,7 +74,9 @@ export default function HomePage(props) {
 
 
     useEffect(() => {
-        if (recordingStatus === 'inactive') { return }
+        if (recordingStatus === 'inactive') {
+           return 
+        }
 
         const interval = setInterval(() => {
             setDuration(curr => curr + 1)
